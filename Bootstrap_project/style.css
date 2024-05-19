@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    background-color: rgb(116, 10, 10);
+    color: white;
+}
+.navbar-brand img{
+
+    background-color: white;
+    border-radius: 100%;
+}
+.about{
+    padding: 70px 0px;
+}
+.about-card{
+    margin: 50px 0px;
+}
+.service,
+.Offers{
+    padding: 10px 0px;
+    margin: 0 auto;
+}
+.service-cards{
+    padding: 50px 0px;
+    
+}
+.service-2{
+    border: 1px solid #f1f1f1f1;
+    padding: 50px 0px;
+    box-shadow: 0 0 4px rgba(189, 189, 189, 0.8);
+}
+.service-1 p,
+.service-2 p,
+.service-3 p{
+    width: 230px;
+    margin: 10px auto;
+    color: #8f8f8ff1;
+
+}
+.service-1 .topic,
+.service-2 .topic,
+.service-3 .topic{
+    color: rgb(95, 17, 17);
+}
+.about hr,
+.menu hr,
+.contact hr{
+    border: none;
+    height: 5px;
+    background-color: rgb(255, 0, 0);
+    width: 70px;
+    border-radius: 2.5px;
+    margin: 15px auto;
+}
+.all-about-info{
+    padding-top: 30px;
+}
+.row {
+    display: flex;
+    align-items: center; /* Vertical alignment */
+}
+
+.chefs h3{
+    padding: 50px 0px;
+}
+.position{
+    color: #919191f1;
+}
+.home img{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+.carousel-caption{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+}
+.carousel-caption p{
+    margin: 0 auto;
+    color: whitesmoke;
+}
+.carousel-caption h1{
+    font-weight: 700;
+    color: white;
+}
+.col-4 img{
+    object-fit: cover;
+}
+.card img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.info{
+    margin-left:50px ;
+}
+.menu{
+    padding: 70px 0px;
+    background-image: url("https://media.istockphoto.com/id/1316145932/photo/table-top-view-of-spicy-food.jpg?s=612x612&w=0&k=20&c=eaKRSIAoRGHMibSfahMyQS6iFADyVy1pnPdy1O5rZ98=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    color: white;
+}
+li button.nav-link{
+    background-color: rgb(255, 255, 255);
+    color: rgb(122, 18, 18);
+    
+}
+ul{
+    text-wrap: nowrap;
+}
+.contact{
+    color: rgb(153, 28, 28);
+    padding: 70px 0px;
+}
+footer{
+    background-color: rgb(63, 15, 15);
+}

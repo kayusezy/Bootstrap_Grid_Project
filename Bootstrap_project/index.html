@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- fontawesome embed code cdn -->
+    <script src="https://kit.fontawesome.com/2b12238948.js" crossorigin="anonymous"></script>
+    <!-- external style link tag -->
+    <link rel="stylesheet" href="/Bootstrap_project/style.css">
+    <!-- Bootstrap html link tag -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+
+    <!-- bootstrap navbar -->
+    <nav class="navbar navbar-expand-lg  fixed-top ">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand text-white" href="#"><img src="/images/b-removebg-preview.png" alt="" height="50px" width="50px"></a>
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item ">
+                <a class="nav-link text-white" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#menu">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#contact">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <button class="btn btn-outline-light" type="submit">Book a table</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+    
+
+    <!-- home section -->
+    <section id="home" class="home">
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+    
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://media.istockphoto.com/id/1405291971/photo/banquet-cutlery.jpg?s=612x612&w=0&k=20&c=v9aYsOsU9n30UaTb_ucwQcBO0oaIt5V1JsAZdoSgqy4=" class="d-block">
+                <div class="carousel-caption ">
+                    <h1>DELECIOUS FOOD</h1>
+                    <p class="fs-5 col-md-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste suscipit cumque a quidem! Facilis suscipit ex necessitatibus veritatis, cupiditate laborum!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1508006728353-6ecef00dcbb8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmVzdGF1cmFudCUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D" class="d-block" style="width:100%">
+                <div class="carousel-caption">
+                    <h1>EXPERT CHEFS</h1>
+                    <p class="fs-5 col-md-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nostrum, inventore praesentium veritatis dicta beatae dolore aperiam architecto rerum alias?</p>
+                </div> 
+            </div>
+            <div class="carousel-item ">
+                <img src="https://images.unsplash.com/photo-1463797221720-6b07e6426c24?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cmVzdGF1cmFudCUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D" alt="New York" class="d-block" style="width:100%">
+                <div class="carousel-caption">
+                    <h1>UNIQUE TASTE</h1>
+                    <p class="fs-5 col-md-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe voluptas temporibus possimus. Sunt modi mollitia beatae est nam odit provident.</p>
+                </div>  
+            </div>
+        </div>
+    
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+        </div>
+  
+    </section>
+
+    <!-- About section -->
+    <section id="about" class="about container">
+        <h2 class="text-center mt-5 ">About Delight</h2>
+        <hr>
+        <div class="all-about-info container ">
+            <div class="about-details row align-items-start">
+                <div class="col-md-6" >
+                    <img src="https://preview.colorlib.com/theme/eatery/img/hero_2.jpg" alt="" width="100%">
+                </div>
+                <div class="about-card col-md-6">
+                    <h3>The Restaurant</h3>
+                    <p>Lorem ipsum dolor sit amet, 
+                       consectetur adipisicing elit. 
+                       Eius est soluta blanditiis velit 
+                       doloremque corrupti aliquid ducimus 
+                       consectetur ea nobis dolorem, id 
+                       quibusdam praesentium consequuntur 
+                       modi eligendi, 
+                       iure nesciunt tempore. Itaque placeat, 
+                       libero aliquam odio ex voluptas.
+                    </p>
+                    <p>Vel vitae, assumenda blanditiis nemo 
+                        in vero reprehenderit asperiores 
+                        distinctio, 
+                        quam velit explicabo neque. Sapiente 
+                        provident sequi omnis itaque eaque 
+                        voluptatum vel. Accusamus deserunt 
+                        atque eligendi mollitia voluptates 
+                        eum libero, ratione id labore. Magnam 
+                        porro dolorem aspernatur, dolor?
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <p class="Offers text-center text-danger mt-5">Services We Offer</p>
+        <p class="Services fs-1 text-center">Our Best Services</p>
+        <hr>
+
+        <div class="container service-cards">
+            <div class="row justify-content-center">
+                <div class="service-1 col-md-3 col-sm-8 mb-5">
+                    <div class="text-center">
+                       <img src="/images/chef (1).png" alt="">
+                       <p class="topic">Best Chef</p>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                    </div>
+                </div>
+                <div class="service-2 col-md-3 col-sm- mb-5">
+                    <div class="text-center">
+                        <img src="/images/cutlery (1).png" alt="">
+                        <p class="topic">Quality Food</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                    </div>
+                </div>
+                <div class="service-3 col-md-3 col-sm-5 mb-5" >
+                    <div class="text-center">
+                        <img src="/images/chef (1).png" alt="">
+                        <p class="topic">Perfect Cook</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                    </div>
+                    <p></p>
+                </div>
+                <div class="col4"></div>
+                <div class="col4"></div>
+            </div>
+        </div>
+
+        <div class="chefs">
+            <h3 class="text-center">CHEFS</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 text-center">
+                        <img src="https://preview.colorlib.com/theme/eatery/img/person_1.jpg" alt="" width="100%">
+                        <P>Mellisa Howard</P>
+                        <P class="position">CEO, Co-Fonder</P>
+                    </div>
+                    <div class="col-md-4 col-sm-4 text-center" >
+                        <img src="https://preview.colorlib.com/theme/eatery/img/person_2.jpg" alt="" width="100%" >
+                        <P>Mike Richardson</P>
+                        <P class="position">CEO, Co-Fonder</P>
+                    </div>
+                    <div class="col-md-4 col-sm-4 text-center">
+                        <img src="https://preview.colorlib.com/theme/eatery/img/person_3.jpg" alt="" width="100%">
+                        <P>Charles White</P>
+                        <P class="position">CEO, Co-Fonder</P>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </section>
+
+    <!-- menu section -->
+    <section id="menu" class="menu">
+
+        <p class="text-center text-white">Our Offerd Menu</p>
+        <hr>
+        <p class="fs-3 col-md-3 text-center mx-auto">Some Trendy And Popular Courses Offerd</p>
+
+        <!-- menu navs and tabs -->
+        <ul class="nav nav-pills list-unstyled mb-3 justify-content-center " id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link mx-1" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Breakfas</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link mx-1" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Lunch</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link mx-1" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link mx-1" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">Disabled</button>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                <div class="container mt-5">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card mt-3">
+                                <img src="https://images.unsplash.com/photo-1546039907-7fa05f864c02?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGZvb2RzfGVufDB8fDB8fHww" class="card-img-top" alt="Menu Item Image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fried Potato w/ Garlic</h5>
+                                    <p class="card-text">Description of the menu item goes here. It can be a brief overview of what the dish contains or any special features.</p>
+                                    <p class="card-text">Price: $9.35</p>
+                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                       
+                        <div class="col-md-4">
+                            <div class="card mt-3">
+                                <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGZvb2RzfGVufDB8fDB8fHww" class="card-img-top" alt="Menu Item Image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fried Potato w/ Garlic</h5>
+                                    <p class="card-text">Description of the menu item goes here. It can be a brief overview of what the dish contains or any special features.</p>
+                                    <p class="card-text">Price: $9.35</p>
+                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card mt-3">
+                                <img src="https://plus.unsplash.com/premium_photo-1677192448752-ca770afef3cb?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGZvb2RzfGVufDB8fDB8fHww" class="card-img-top" alt="Menu Item Image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fried Potato w/ Garlic</h5>
+                                    <p class="card-text">Description of the menu item goes here. It can be a brief overview of what the dish contains or any special features.</p>
+                                    <p class="card-text">Price: $9.35</p>
+                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+
+                <div class="container mt-5">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card mt-3">
+                                <img src="https://images.unsplash.com/photo-1546039907-7fa05f864c02?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGZvb2RzfGVufDB8fDB8fHww" class="card-img-top" alt="Menu Item Image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fried Potato w/ Garlic</h5>
+                                    <p class="card-text">Description of the menu item goes here. It can be a brief overview of what the dish contains or any special features.</p>
+                                    <p class="card-text">Price: $9.35</p>
+                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                       
+                        <div class="col-md-4">
+                            <div class="card mt-3">
+                                <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGZvb2RzfGVufDB8fDB8fHww" class="card-img-top" alt="Menu Item Image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fried Potato w/ Garlic</h5>
+                                    <p class="card-text">Description of the menu item goes here. It can be a brief overview of what the dish contains or any special features.</p>
+                                    <p class="card-text">Price: $9.35</p>
+                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card mt-3">
+                                <img src="https://plus.unsplash.com/premium_photo-1677192448752-ca770afef3cb?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGZvb2RzfGVufDB8fDB8fHww" class="card-img-top" alt="Menu Item Image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fried Potato w/ Garlic</h5>
+                                    <p class="card-text">Description of the menu item goes here. It can be a brief overview of what the dish contains or any special features.</p>
+                                    <p class="card-text">Price: $9.35</p>
+                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+
+                <div class="container mt-5">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card mt-3">
+                                <img src="https://images.unsplash.com/photo-1546039907-7fa05f864c02?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGZvb2RzfGVufDB8fDB8fHww" class="card-img-top" alt="Menu Item Image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fried Potato w/ Garlic</h5>
+                                    <p class="card-text">Description of the menu item goes here. It can be a brief overview of what the dish contains or any special features.</p>
+                                    <p class="card-text">Price: $9.35</p>
+                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                       
+                        <div class="col-md-4">
+                            <div class="card mt-3">
+                                <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGZvb2RzfGVufDB8fDB8fHww" class="card-img-top" alt="Menu Item Image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fried Potato w/ Garlic</h5>
+                                    <p class="card-text">Description of the menu item goes here. It can be a brief overview of what the dish contains or any special features.</p>
+                                    <p class="card-text">Price: $9.35</p>
+                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card mt-3">
+                                <img src="https://plus.unsplash.com/premium_photo-1677192448752-ca770afef3cb?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGZvb2RzfGVufDB8fDB8fHww" class="card-img-top" alt="Menu Item Image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fried Potato w/ Garlic</h5>
+                                    <p class="card-text">Description of the menu item goes here. It can be a brief overview of what the dish contains or any special features.</p>
+                                    <p class="card-text">Price: $9.35</p>
+                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
+                <div class="container mt-5">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card mt-3">
+                                <img src="https://images.unsplash.com/photo-1546039907-7fa05f864c02?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGZvb2RzfGVufDB8fDB8fHww" class="card-img-top" alt="Menu Item Image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fried Potato w/ Garlic</h5>
+                                    <p class="card-text">Description of the menu item goes here. It can be a brief overview of what the dish contains or any special features.</p>
+                                    <p class="card-text">Price: $9.35</p>
+                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                       
+                        <div class="col-md-4">
+                            <div class="card mt-3">
+                                <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGZvb2RzfGVufDB8fDB8fHww" class="card-img-top" alt="Menu Item Image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fried Potato w/ Garlic</h5>
+                                    <p class="card-text">Description of the menu item goes here. It can be a brief overview of what the dish contains or any special features.</p>
+                                    <p class="card-text">Price: $9.35</p>
+                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card mt-3">
+                                <img src="https://plus.unsplash.com/premium_photo-1677192448752-ca770afef3cb?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGZvb2RzfGVufDB8fDB8fHww" class="card-img-top" alt="Menu Item Image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fried Potato w/ Garlic</h5>
+                                    <p class="card-text">Description of the menu item goes here. It can be a brief overview of what the dish contains or any special features.</p>
+                                    <p class="card-text">Price: $9.35</p>
+                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>              </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section id="contact" class="contact">
+        <h2 class="text-center m-1 text-danger">CONTACT US</h2>
+        <hr>
+        <div class="container">
+           <div class="row justify-content-center align-items-start">
+            <div class="col-md-5">
+                <div class="mb-3">
+                    <div class="row">
+                        <div class="col">
+                            <label for="exampleFormControlInput1" class="form-label">Name</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1">
+                        </div>
+                        <div class="col">
+                            <label for="exampleFormControlInput1" class="form-label">Phone</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1">
+                        </div>                    
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Write Message</label>
+                    <textarea class="form-control col-sm-3" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+            </div>
+            <div class="info col-md-4 col-sm-3">
+                <p class="mb-4 mt-2 fs-4">Contact Details</p>
+                <p class="mb-3"><b>Address: </b>34 Street Name, City Name Here, United States</p>
+                <p class="mb-3"><b>Phone Number: </b>+1 242 4942 290</p>
+                <p class="mb-3"><b>Website: </b>info@yourdomain.com</p>
+            </div>
+           </div>
+        </div>
+    </section>
+
+    <!-- footers section -->
+    <footer class=" text-center  p-2 text-white">
+        <p><P>Copyright@2024</P></p>
+    </footer>
+
+    <!-- Bootstrap js link tag -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
+</body>
+</html>
